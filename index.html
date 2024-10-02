@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+<style>
+table,th,tr,td{
+border:1px solid black
+}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<th> sl no </th>
+<th> Block-level Elements </th> 
+<th> Uses </th>
+</tr>
+<tr>
+<td> 1 </td>
+<td> address </td>
+<td> Defines contact information for the author/owner of a document	<br><address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address></td>
+</tr>
+<tr>
+<td> 2 </td>
+<td> article </td>
+<td> It specifies independent, self-contained content. <br><h4>mozilla firefox</h4> <article>"Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018."</article></td>
+</tr>
+<tr>
+<td> 3 </td>
+<td> aside </td>
+<td> <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside></td>
+</tr>
+<tr> 
+<td> 4 </td>
+<td> blockquote </td>
+<td> <blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote></td>
+</tr>
+<tr> 
+<td> 5 </td> 
+<td> dd,dl,dt </td>
+<td> <dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl></td>
+</tr>
+<td> 6 </td> 
+<td> div </td>
+<td> <div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div></td>
+</tr>
+<td> 7 </td>
+<td> fieldset </td>
+<td> <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+	</fieldset></td>
+	</tr>
+	<tr>
+<td> 8 </td>
+<td> figcaption </td>
+<td>  <figure>
+  <img src="images/rose.jpg" alt="Trulli" style="width:50%">
+  <figcaption>Fig.1 - rose.</figcaption>
+</figure></td>
+</tr>
+<tr>
+<td> 9 </td>
+<td> footer </td>
+<td> 
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer></td>
+</tr>
+<tr>
+<td> 10 </td>
+<td> form </td>
+<td> <form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br></form></td>
+  </tr>
+  <tr>
+  <td> 11 </td>
+  <td> heading </td>
+  <td> <h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6></td>
+</tr>
+<tr>
+<td> 12 </td>
+<td> header </td>
+<td>  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header></td>
+  </tr>
+  <tr>
+  <td> 13 </td>
+  <td> hr </td> 
+  <td> "I am Batman " <hr> </td>
+  </tr>
+<tr>
+<td> 14 </td>
+<td> ol,li </td>
+<td> <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td> 15 </td>
+<td> main </td>
+<td> <main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p></main> </td>
+  </tr>
+  <tr>
+  <td> 16 </td>
+  <td> nav </td>
+  <td> <nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/python/">Python</a>
+</nav></td>
+</tr>
+<tr>
+<td> 17 </td>
+<td> noscript </td>
+<td> tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.<br>
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Your browser does not support JavaScript!</noscript></td>
+</tr>
+<tr>
+<td> 18 </td>
+<td> p </td>
+<td> defines a paragraph .<br>
+<p>"I am a good boy "</p></td>
+</tr>
+<tr>
+<td> 19 </td>
+<td> pre </td>
+<td> tag defines preformatted text.<br><pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre></td>
+</tr>
+<tr>
+<td> 20 </td>
+<td> section </td>
+<td> it defines a section in a document.<br><h2>WWF History</h2><br>"The World Wide Fund for Nature (WWF) is an international organization"</td>
+</tr>
+<tr>
+<td> 21 </td>
+<td> table </td>
+<td> defines a table <br><table>
+<tr>
+<th> SL NO  </th>
+<th> TAGS  </th>
+<th> USES </th>
+</tr></table> </td>
+</tr>
+ <tr>
+ <td> 22 </td>
+ <td> ul </td>
+ <td> tag defines an unordered (bulleted) list.<br><ul>
+ <li>Coffee</li>
+ <li>Tea</li>
+ <li>Milk</li>
+</ul>
+</td>
+ </tr>
+  
+ <tr>
+ <th colspan="3"> Inline elements </th>
+ </tr>
+ 
+ <tr>
+ <th> sl no </th>
+ <th> tags </th>
+ <th> uses </th>
+ </tr>
+ 
+ <tr>
+ <td> 1 </td>
+ <td> a </td>
+ <td> tag defines a hyperlink, which is used to link from one page to another.<br><a href="https://www.w3schools.com">Visit W3Schools.com!</a></td>
+ </tr>
+ 
+ <tr>
+ <td> 2 </td>
+ <td> abbr </td>
+ <td> tag defines an abbreviation or an acronym.<br>
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948</td>
+</tr>
+
+<tr> 
+<td> 3 </td>
+<td> b </td>
+<td> used to bold text <br> <p>This is normal text - <b>and this is bold text</b>.</p></td>
+</tr>
+
+<tr>
+<td> 4 </td>
+<td> bdo </td>
+<td> it is used to override the current text direction.<br> <bdo dir="rtl">"saravanan"</bdo></td>
+</tr>
+
+<tr>
+<td> 5 </td>
+<td> br </td>
+  <td> Defines a single line break </td>
+  </tr>
+  
+  <tr>
+  <td> 6 </td>
+   <td> button </td>
+  <td>Defines a clickable button<br> <input type="button" value="ping" ></td>
+  </tr>
+  
+  <tr>
+  <td> 7 </td>
+  <td> kbd </td>
+<td> defines keyboard input <br> Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</td>
+</tr>
+
+<tr>
+<td> 8 </td>
+<td> dfn </td>
+<td> it stands for the "definition element", and it specifies a term that is going to be defined within the content.<br><dfn>"HTML</dfn> is the standard markup language for creating web pages"</td>
+</tr>
+
+<tr>
+<td> 9 </td>
+<td> cite </td>
+<td> it defines the title of a creative work.<br> <cite>"The Scream</cite> by Edward Munch. Painted in 1893"</td>
+</tr>
+
+<tr>
+<td> 10 </td>
+<td> italic (i) </td>
+<td> used to show in itallic type <br> <i> "SARAVANAN" </i> </td>
+</tr>
+
+<tr>
+<td> 11 </td>
+<td> strong </td>
+<td> Used to "bold" important text in paragraph <br> "i am a <strong>good </strong> boy" </td>
+</tr>
+
+<tr>
+<td> 12 </td>
+<td> small </td>
+<td> used to show smaller text in a word or a paragraph <br><small> "i am a good boy"</small></td>
+</tr>
+
+<tr>
+<td> 13 </td>
+<td> em </td>
+<td> it is same as (i) itallic both functions same <br> <em>"Saravanan"</em></td>
+</tr>
+
+<tr>
+<td> 14 </td>
+<td> sub </td>
+<td> it defines subscript text <br> "water is <sub>h2o"</sub></td>
+</tr>
+
+<tr>
+<td> 15 </td>
+<td> sup </td>
+<td> it defines superscript text <br> "water is <sup>h2o"</sup></td>
+</tr>
+
+<tr>
+<td> 16 </td>
+<td> q </td>
+<td> tag defines a short quotation <br> <q> winter is coming</q></td>
+</tr>
+
+<tr>
+<td> 17 </td>
+<td> span </td>
+<td> tag is an inline container used to mark up a part of a text, or a part of a document.<br> "i have a <span style="color:brown">brown</span> eye "</td>
+</tr>
+
+<tr>
+<td> 18 </td>
+<td> select/option </td>
+<td>  it is used to create a drop-down list.is most often used in a form, to collect user input.<br><label for="cars">Choose a car:</label>
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option> 
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select></td>
+</tr>
+
+<tr>
+<td> 19 </td>
+<td> object-data </td>
+<td>it specifies the URL of the resource to be used by the object.<br><object data="video/bunny.mp4"> </object></td>
+</tr>
+
+<tr>
+<td> 20 </td>
+<td> input </td>
+<td> defines a input control <br><form> <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form></td>
+</tr>
+
+<tr>
+<td> 21 </td>
+<td> image </td>
+<td> defines an image <br><img src="images/rose.jpg" height="150" width="300"></td>
+</tr>
+
+<tr>
+<td> 22 </td>
+<td> var </td>
+<td>   tag is used to defines a variable in programming or in a mathematical expression.<br><p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p></td>
+</tr>
+
+<tr>
+<td> 23 </td>
+<td> textarea </td>
+<td> Defines a multiline input control (text area) <br> <textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea></td>
+</tr>
+
+<tr>
+<th colspan="3"> Sematic Elements </th>
+</tr>
+
+<tr>
+<th> sl no </th>
+<th> tags </th>
+<th> Uses </th>
+</tr>
+
+<tr>
+<td> 1 </td>
+<td> article </td>
+<td> It specifies independent, self-contained content. <br><h4>mozilla firefox</h4> <article>"Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018."</article></td>
+</tr>
+
+<tr>
+<td> 2 </td>
+<td> aside </td>
+<td> <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside></td>
+</tr>
+
+<tr>
+<td> 3 </td>
+<td> details/summary </td>
+<td> is used for the content/information which is initially hidden but could be displayed if the user wishes to see it.<br> <details>
+        <summary>
+            GeeksforGeeks
+        </summary>
+        <p>
+            A computer science portal for geeks
+        </p>
+        <div>
+            It is a computer science portal
+            where you can learn programming.
+        </div>
+    </details></td>
+	</tr>
+	
+<tr>
+<td> 4 </td>
+<td> figcaption </td>
+<td>  <figure>
+  <img src="images/rose.jpg" alt="Trulli" style="width:50%">
+  <figcaption>Fig.1 - rose.</figcaption>
+</figure></td>
+</tr>
+
+<tr>
+<td> 5 </td>
+<td> footer </td>
+<td> 
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer></td>
+</tr>
+<tr>
+
+<tr>
+<td> 6 </td>
+<td> header </td>
+<td>  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header></td>
+  </tr>
+  
+  <tr>
+  <td> 7 </td>
+  <td> main </td>
+<td> <main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p></main> </td>
+  </tr>
+  
+  <tr>
+  <td> 8 </td>
+  <td> mark </td>
+<td> used for highlight a text or a paragraph <br> "goat movie total collection is <mark>1000cr"</mark"></td>
+</tr>
+
+<tr>
+<td> 9 </td>
+<td> nav </td>
+  <td> <nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/python/">Python</a>
+</nav></td>
+</tr>
+
+<tr>
+<td> 10 </td>
+<td> section </td>
+<td> it defines a section in a document.<br><h2>WWF History</h2><br>"The World Wide Fund for Nature (WWF) is an international organization"</td>
+</tr>
+
+<tr>
+<th colspan="3"> Non-Sematic Line </th>
+</tr>
+
+<tr>
+<th> sl no </th>
+<th> tags </th>
+<th> Uses </th>
+</tr>
+
+<tr> 
+<td> 1 </td>
+<td> div </td>
+<td> tag defines a division or a section in an HTML document.<br>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div></td>
+</tr>
+
+<tr>
+<td> 2 </td> 
+<td> span </td>
+<td> tag is an inline container used to mark up a part of a text, or a part of a document.<br> "i have a <span style="color:brown">brown</span> eye "</td>
+</tr>
+
+
+
+
+
+ 
+
+
+
+
+
